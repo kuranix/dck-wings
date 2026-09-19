@@ -1,18 +1,18 @@
 # dck-wings — Container Management Agent
 
-**dck-wings** is a lightweight REST API daemon for managing containers via [dck](https://github.com/animesao/dck). It runs as a systemd service on your VDS and provides a HTTP API that frontends (like dck-panel) use to create, start, stop, and monitor containers.
+**dck-wings** is a lightweight REST API daemon for managing containers via [dck](https://github.com/kuranix/dck). It runs as a systemd service on your VDS and provides a HTTP API that frontends (like dck-panel) use to create, start, stop, and monitor containers.
 
 ## Quick Start
 
 ```bash
-bash <(curl -sfL https://raw.githubusercontent.com/animesao/dck-wings/main/install.sh)
+bash <(curl -sfL https://raw.githubusercontent.com/kuranix/dck-wings/main/install.sh)
 ```
 
 Or manually:
 
 ```bash
 # Download
-curl -sfL https://github.com/animesao/dck-wings/releases/latest/download/dck-wings-linux-amd64 -o /usr/local/bin/dck-wings
+curl -sfL https://github.com/kuranix/dck-wings/releases/latest/download/dck-wings-linux-amd64 -o /usr/local/bin/dck-wings
 chmod +x /usr/local/bin/dck-wings
 
 # Install as service

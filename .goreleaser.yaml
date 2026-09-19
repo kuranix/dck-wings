@@ -13,8 +13,8 @@ nfpms:
   - package_name: dck-wings
     file_name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Arch }}"
     formats: [deb]
-    vendor: animesao
-    homepage: https://github.com/animesao/dck-wings
+    vendor: kuranix
+    homepage: https://github.com/kuranix/dck-wings
     description: dck agent for container nodes
 
 archives:
@@ -28,5 +28,5 @@ checksum:
 
 release:
   github:
-    owner: animesao
+    owner: kuranix
     name: dck-wings

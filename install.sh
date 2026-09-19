@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="animesao/dck-wings"
+REPO="kuranix/dck-wings"
 BIN="/usr/local/bin/dck-wings"
 CONFIG_DIR="/etc/dck-wings"
 DATA_DIR="/var/lib/dck-wings"
@@ -31,7 +31,7 @@ esac
 # Check for dck
 if ! command -v dck &>/dev/null; then
   echo "Warning: 'dck' not found in PATH."
-  echo "Install dck first: echo 'deb [trusted=yes] https://animesao.github.io/dck/apt ./' > /etc/apt/sources.list.d/dck.list && apt update && apt install dck"
+  echo "Install dck first: echo 'deb [trusted=yes] https://kuranix.github.io/dck/apt ./' > /etc/apt/sources.list.d/dck.list && apt update && apt install dck"
   echo ""
 fi
 

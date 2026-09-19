@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.2 (2026-09-19)
+
+- Rename `animesao` -> `kuranix`: repo URLs, goreleaser owner, install script, license.
+- No functional changes.
+
 ## 1.5.0 (2026-06-24)
 
 ### Features
